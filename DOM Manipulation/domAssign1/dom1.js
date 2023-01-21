@@ -44,9 +44,9 @@ header.style.borderBottom= "solid 3px #000"; // CHANGING THE STYLE WITH style.wh
 
 
 // SHARPENER EXE//
-let head2= document.getElementById("secondhead") // ADDED AN ID TO THE H2 TAG
-head2.style.color= "green";
-head2.style.fontWeight= "bold";
+// let head2= document.getElementById("secondhead") // ADDED AN ID TO THE H2 TAG
+// head2.style.color= "green";
+// head2.style.fontWeight= "bold";
 
 
 
@@ -54,4 +54,17 @@ head2.style.fontWeight= "bold";
 
 // ********2
 // GETELEMENTBYCLASSNAME
+let items= document.getElementsByClassName("list-group-item");
+console.log(items)
+console.log(items[0])
+console.log(items[1])
+items[0].textContent= "Item 1 Changed";
+// items[0].style.fontWeight= "bold";
+// items[0].style.backgroundColor= "grey";
 
+// ASSIGNING BACKGROUND COLOR TO ALL THE ITEMS 
+for(let i=0; i<items.length; i++){
+    items[i].style.backgroundColor= "yellowgreen";
+    items[i].style.fontWeight= "bold";
+}
+items[2].style.backgroundColor= "green"
