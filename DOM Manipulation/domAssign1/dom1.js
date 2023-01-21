@@ -1,4 +1,4 @@
-// // EXAMINE THE DOCUMENT OBJECT
+// // EXAMINE THE DOCUMENT OBJECT 
 // console.dir(document);
 
 // // PROPERTIES
