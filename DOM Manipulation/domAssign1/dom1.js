@@ -61,10 +61,27 @@ console.log(items[1])
 items[0].textContent= "Item 1 Changed";
 // items[0].style.fontWeight= "bold";
 // items[0].style.backgroundColor= "grey";
+items[3].style.color= "red";
+items[4].style.color= "red";
 
-// ASSIGNING BACKGROUND COLOR TO ALL THE ITEMS 
-for(let i=0; i<items.length; i++){
-    items[i].style.backgroundColor= "yellowgreen";
-    items[i].style.fontWeight= "bold";
-}
-items[2].style.backgroundColor= "green"
+// // ASSIGNING BACKGROUND COLOR TO ALL THE ITEMS 
+// for(let i=0; i<items.length; i++){
+//     items[i].style.backgroundColor= "yellowgreen";
+//     items[i].style.fontWeight= "bold";
+// }
+// items[2].style.backgroundColor= "green"
+
+
+// GETELEMENTBYTAGNAME ( does the same thing like getelementbyclass but with the tag name)
+// let li= document.getElementsByTagName("li");
+
+// for(let i=0; i<li.length; i++){
+//     li[i].style.backgroundColor= "yellowgreen"
+// }
+
+// SHARPENER EXE
+li[4].style.color= "red"; // BY TAGNAME
+
+
+// QUERYSELECTOR ( you can use it for only 1 item)
+
